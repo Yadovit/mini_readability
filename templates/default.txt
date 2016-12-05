@@ -1,0 +1,17 @@
+[tags_for_remove]=script noscript style noindex form
+[class_attrs_for_remove]=social reg auth footer banner mobile comment preview inject incut
+[class_attrs_for_search]=content context article text
+[string_width]=80
+[url]=%url_text% [%url_href%]
+
+Шаблон заголовка:
+%header_begin% *** %header% ***
+%header_end%
+
+Шаблон всего текста статьи:
+%p_all_begin%%p_all%%p_all_end%
+
+Шаблон отдельного абзаца:
+%p_begin%
+%p%
+%p_end%
